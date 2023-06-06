@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to right, #F50057, #E53935);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+label{
+    font-size: 1.2em;
+    margin-right: 10px;
+    font-weight: bold;
+}
+input, button{
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+button{
+    background-color: #F50057;
+    color: white;
+    cursor: pointer;
+}
+
+#address{
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+#address{
+    display: none;
+}
